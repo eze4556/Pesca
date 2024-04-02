@@ -1,0 +1,59 @@
+.fondo{
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+
+.boton{
+    width: 9em;
+    height: 5ex;
+    background-color: #17B1E8;
+    border: 2px solid rgb(113,99,99);
+    border-radius: 7px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .boton:hover{
+      background-color:#92DAF4;
+      color: black;
+  }
+  .logo{
+    padding: 2em;
+    width: 400px;
+    height: 200px;
+}
+
+#botones{
+    width: 100vw;
+    margin: auto; 
+    padding: 1em; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1em;
+    gap: 3em;
+}
+
+#titulo{
+    width:100vw;
+    margin: auto; 
+    padding: 1em; 
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-around;
+    padding-top: 1em;
+    gap: 1em;
+}
+
+/* .pan{
+    display: flex;
+    padding: 1em; 
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding-top: 1em;
+    gap: 1em;
+} */
